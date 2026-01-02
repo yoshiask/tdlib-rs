@@ -1,11 +1,11 @@
 [package]
 name = "tdlib"
-version = "0.10.0"
-authors = ["Marco Melorio <marco.melorio@protonmail.com>"]
+version = "0.11.0"
+authors = ["Joshua Askharoun <jjask7@gmail.com>", "Marco Melorio <marco.melorio@protonmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
-homepage = "https://github.com/melix99/tdlib-rs"
-repository = "https://github.com/melix99/tdlib-rs"
+homepage = "https://github.com/yoshiask/tdlib-rs"
+repository = "https://github.com/yoshiask/tdlib-rs"
 documentation = "https://docs.rs/tdlib"
 description = """
 Rust wrapper around the Telegram Database Library.
@@ -15,7 +15,7 @@ Rust wrapper around the Telegram Database Library.
 features = ["dox"]
 
 [package.metadata.system-deps]
-tdjson = "1.8.19"
+tdjson = "1.8.59"
 
 [features]
 default = ["bots-only-api"]
